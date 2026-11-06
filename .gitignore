@@ -1,0 +1,24 @@
+# Python 가상환경
+.venv/
+venv/
+
+# Python 임시 파일
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# API 키 및 비밀정보
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*credentials*.json
+
+# 운영체제 및 편집기 임시 파일
+.DS_Store
+Thumbs.db
+.vscode/
+
+# 로그 및 임시 파일
+*.log
+*.tmp
