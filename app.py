@@ -12,6 +12,7 @@ page = st.navigation({
     ],
     "AI 모델": [
         st.Page("views/sentiment.py", title="리뷰 감성 분석", icon="💬"),   # 07_1
+        st.Page("views/sentiment_dl.py", title="딥러닝 감성 분석", icon="🧠"),
         st.Page("views/recommend.py", title="상품 추천", icon="🛍️"),       # 06
         st.Page("views/segment.py", title="판매자 유형", icon="🏪"),        # 08
         st.Page("views/churn.py", title="판매자 이탈 위험", icon="🚨"),     # 09
